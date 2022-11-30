@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
         queue = Volley.newRequestQueue(this)
         layoutLoading = findViewById(R.id.layout_loading)
         srMahasiswa = findViewById(R.id.sr_mahasiswa)
-        srMahasiswa = findViewById(R.id.sr_mahasiswa)
         svMahasiswa = findViewById(R.id.sv_mahasiswa)
 
         srMahasiswa?.setOnRefreshListener (SwipeRefreshLayout.OnRefreshListener { allMahasiswa() })
